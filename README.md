@@ -3,7 +3,7 @@
 A simple GUI-based Bank Management System built using Java, Swing, and MySQL with JDBC. This project allows users to create accounts, deposit/withdraw money, and view transaction history via a graphical interface.
 
 📽️ Demo Video
-▶️ 
+▶️ https://youtu.be/12wITqFSKzU
 
 ✨ Features
 Account creation form with personal and banking details
