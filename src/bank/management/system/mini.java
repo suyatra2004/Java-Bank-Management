@@ -49,7 +49,7 @@ public class mini extends JFrame implements ActionListener {
             ResultSet resultSet = c.statement.executeQuery("select * from bank where pin = '"+pin+"'");
             while (resultSet.next()){
 
-                label1.setText(label1.getText() + "<html>"+resultSet.getString("data")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+resultSet.getString("type")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+resultSet.getString("amount")+ "<br><br><html>");
+                label1.setText(label1.getText() + "<html>"+resultSet.getString("date")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+resultSet.getString("type")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+resultSet.getString("amount")+ "<br><br><html>");
 
                 if (resultSet.getString("type").equals("Deposit")){
                     balance += Integer.parseInt(resultSet.getString("amount"));
